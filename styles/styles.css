@@ -1,6 +1,6 @@
 body{
   margin-top:20px;
-  background: lightsteelblue;
+  background: goldenrod;
 }
 
 /**
@@ -9,9 +9,10 @@ body{
 /*** General styles ***/
 .panel {
 box-shadow: none;
-border: 2px solid honeydew;
+border: 5px solid honeydew;
 width: 1000px;
 padding: auto;
+border-style: solid;
 }
 .panel-heading {
 border-bottom: 0;
@@ -141,8 +142,11 @@ color: #999999;
 }
 /*** Profile: Contact ***/
 .profile__contact-btn {
-padding: 12px 20px;
-margin-bottom: 20px;
+text-decoration: none;
+color: black;
+border: black solid;
+padding: 10px;
+
 }
 .profile__contact-hr {
 position: relative;
@@ -188,8 +192,8 @@ color: #999999;
 .profile__contact-info-body {
 overflow: hidden;
 padding-left: 20px;
-color: #999999;
-}
+color: red;
+} 
 .profile__contact-info-body a {
 color: #999999;
 }
@@ -203,8 +207,4 @@ margin-top: 2px;
 margin-bottom: 5px;
 font-weight: 500;
 color: black;
-
-
-
 }
-
